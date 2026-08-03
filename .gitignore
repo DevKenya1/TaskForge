@@ -1,0 +1,17 @@
+# Laravel
+/api/vendor
+/api/.env
+/api/storage/*.key
+/api/bootstrap/cache/*.php
+/api/database/database.sqlite
+
+# Node / Vite
+/web/node_modules
+/web/dist
+/web/.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode
+.idea
