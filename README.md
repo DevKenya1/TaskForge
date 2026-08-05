@@ -3,6 +3,9 @@
 
   # TaskForge
 
+
+ # Description 
+ 
   TaskForge is a modern team task and project management platform that empowers teams to organize projects, assign collaborators, track task progress, and stay aligned through role-based project membership, a visual Kanban board, secure token-based authentication, and a fully documented REST API.
 </div>
 
