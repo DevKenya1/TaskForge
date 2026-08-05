@@ -103,4 +103,17 @@ class ProjectController extends Controller
 
         return response()->json($project->load('members:id,name,email'));
     }
+
+    public function removeMember(Request $request, Project $project, \App\Models\User $user)
+    {
+        $this->authorize('update', $project);
+
+        if ($user->id === $project->owner_id) {
+            return response()->json(['message' => 'Cannot remove the project owner.'], 422);
+        }
+
+        $project->members()->detach($user->id);
+
+        return response()->json($project->load('members:id,name,email'));
+    }
 }

@@ -14,6 +14,7 @@ Route::middleware('auth:sanctum')->group(function () {
 
     Route::apiResource('projects', ProjectController::class);
     Route::post('/projects/{project}/members', [ProjectController::class, 'addMember']);
+    Route::delete('/projects/{project}/members/{user}', [ProjectController::class, 'removeMember']);
 
     Route::apiResource('projects.tasks', TaskController::class)->except(['show']);
 });
