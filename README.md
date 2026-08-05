@@ -1,12 +1,11 @@
+
+#TaskForge
 <div align="center">
   <img src="logo-512.png" alt="TaskForge logo" width="88" />
 
+  # Description 
  
-
-
- # Description 
- 
-  TaskForge is a modern team task and project management platform that empowers teams to organize projects, assign collaborators, track task progress, and stay aligned through role-based project membership, a visual Kanban board, secure token-based authentication, and a fully documented REST API.
+TaskForge is a modern team task and project management platform that empowers teams to organize projects, assign collaborators, track task progress, and stay aligned through role-based project membership, a visual Kanban board, secure token-based authentication, and a fully documented REST API.
 </div>
 
 <br/>
@@ -107,33 +106,8 @@ The backend has no server-rendered views — it exists purely to serve JSON. The
 - Node.js 20+
 - PostgreSQL
 
-### Backend
 
-```bash
-cd api
-composer install
-cp .env.example .env
-php artisan key:generate
-# set DB_CONNECTION=pgsql and your database credentials in .env
-php artisan migrate
-php artisan serve
-```
 
-### Frontend
-
-```bash
-cd web
-npm install
-# create .env with: VITE_API_URL=http://127.0.0.1:8000
-npm run dev
-```
-
-### Running tests
-
-```bash
-cd api
-php artisan test
-```
 
 ---
 
