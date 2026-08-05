@@ -1,7 +1,7 @@
 <div align="center">
   <img src="logo-512.png" alt="TaskForge logo" width="88" />
 
-  # TaskForge
+ 
 
 
  # Description 
