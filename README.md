@@ -30,19 +30,21 @@ TaskForge is a modern team task and project management platform that empowers te
 
 
 
-<img src="docs/screenshots/login.png" alt="Login screen" width="270" />
+<img src="<img width="1363" height="680" alt="image" src="https://github.com/user-attachments/assets/09989800-f7ac-41b7-af1a-5d9ec2567c39" />
+" alt="Login screen" width="270" />
 
-<img src="docs/screenshots/dashboard.png" alt="Project dashboard" width="270" />
+<img src="<img width="1359" height="728" alt="image" src="https://github.com/user-attachments/assets/b63d3f79-5834-4ef2-93b6-e02f2b5d6475" />" alt="Project dashboard" width="270" />
 
-<img src="docs/screenshots/board.png" alt="Kanban task board" width="270" />
+<img src="<img width="1363" height="681" alt="image" src="https://github.com/user-attachments/assets/500420b9-5dd4-43fc-9301-314519e6a19f" />" alt="Kanban task board" width="270" />
+
+<img src="<img width="1363" height="681" alt="image" src="https://github.com/user-attachments/assets/500420b9-5dd4-43fc-9301-314519e6a19f" />" alt="Kanban task board" width="270" />
+
 
 
 
 </div>
 
 
-
-> Screenshots above are placeholders — replace the files in `docs/screenshots/` with your own captures of the login screen, project dashboard, and task board.
 
 
 
