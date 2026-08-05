@@ -13,6 +13,7 @@
   <img src="https://github.com/user-attachments/assets/b63d3f79-5834-4ef2-93b6-e02f2b5d6475" alt="Project dashboard" width="270" />
   <img src="https://github.com/user-attachments/assets/500420b9-5dd4-43fc-9301-314519e6a19f" alt="Kanban task board" width="270" />
 </div>
+
 <br/>
 
 <div align="center">
@@ -155,5 +156,3 @@ All routes except register/login require a `Bearer` token in the `Authorization`
 ## License
 
 Open source under the [MIT License](LICENSE) — free to use, modify, and build on.
-
-
